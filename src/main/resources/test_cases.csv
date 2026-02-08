@@ -1,0 +1,16 @@
+nights,guestAge,isArkansasResident,hasVeteranDiscount,expectedResult,isError
+1,30,True,True,36.0,False
+14,30,False,False,700.0,False
+5,0,False,False,125.0,False
+5,12,False,False,125.0,False
+5,13,False,False,250.0,False
+5,64,False,False,250.0,False
+5,65,False,False,200.0,False
+5,2147483647,False,False,200.0,False
+2,30,True,False,90.0,False
+2,30,False,True,90.0,False
+2,30,True,True,81.0,False
+-2147483648,30,False,False,0.0,True
+0,30,False,False,0.0,True
+15,30,False,False,0.0,True
+2147483647,30,False,False,0.0,True
